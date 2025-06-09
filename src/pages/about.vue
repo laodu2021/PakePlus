@@ -17,7 +17,7 @@
             </div>
             <div class="description">
                 <p>
-                    {{ t('aboutGuide') }}
+                    {{ t('aboutGuide', { email: '1024xiaoshen@gmail.com' }) }}
                     <!-- 或加入我们的群聊： -->
                     <!-- <el-popover
                         popper-class="popoverBox"
@@ -37,7 +37,7 @@
             </div>
             <div class="tools">
                 <p>
-                    <span>PakePLus：</span>
+                    <span>PakePlus：</span>
                     <span class="link" @click="openUrl(urlMap.pakeplus)">
                         {{ urlMap.pakeplus }}
                     </span>
